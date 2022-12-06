@@ -1,6 +1,7 @@
 package com.nt;
 
 import com.add.SumOfTwoNumber;
+import com.checkpalendrom.CheckPalendrom;
 
 public class Test {
 	
@@ -10,6 +11,10 @@ public class Test {
 		SumOfTwoNumber sum = new SumOfTwoNumber();
 		int result=sum.add();
 		System.out.println(result);
+		
+		CheckPalendrom check=new CheckPalendrom();
+		String checkPlaendrom=check.palendrom(121);
+		System.out.println(checkPlaendrom);
 	}
 
 }
